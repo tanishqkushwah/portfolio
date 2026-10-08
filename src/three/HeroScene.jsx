@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, useTexture } from "@react-three/drei";
 import profileImage from "../assets/profile.jpg";
+import * as THREE from "three";
 function Particles() {
   const particlesRef = useRef(null);
 
@@ -73,16 +74,25 @@ function Particles() {
     <group ref={groupRef}>
 
       {/* Profile photo */}
-      <mesh>
-        <circleGeometry args={[1.55, 64]} />
+      {/* Front side */}
+<mesh>
+  <circleGeometry args={[1.55, 64]} />
+  <meshBasicMaterial
+    map={texture}
+    transparent
+    side={THREE.FrontSide}
+  />
+</mesh>
 
-        <meshBasicMaterial
-          map={texture}
-          transparent
-          roughness={0.45}
-          metalness={0.15}
-        />
-      </mesh>
+{/* Back side — same photo */}
+<mesh rotation={[0, Math.PI, 0]}>
+  <circleGeometry args={[1.55, 64]} />
+  <meshBasicMaterial
+    map={texture}
+    transparent
+    side={THREE.FrontSide}
+  />
+</mesh>
 
       {/* Green glow behind profile */}
       <mesh position={[0, 0, -0.05]} scale={1.08}>
