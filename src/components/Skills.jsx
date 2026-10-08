@@ -8,17 +8,20 @@ function Skills() {
   const skillsRef = useRef(null);
 
   const skills = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Python",
-    "C++",
-    "SQL",
-    "Git & GitHub",
-    "Machine Learning",
-    "Data Science",
-  ];
+  "Artificial Intelligence",
+  "Data Science",
+  "Machine Learning",
+  "Python",
+  "C++",
+  "SQL",
+  "HTML & CSS",
+  "JavaScript",
+  "React",
+  "Git & GitHub",
+  "Linux",
+  "Cybersecurity",
+  "Networking",
+];
 
   useEffect(() => {
     const ctx = gsap.context(() => {

@@ -61,11 +61,11 @@ function Experience() {
           <h4>WatchDog</h4>
 
           <p>
-            Working on frontend development and networking operations.
-            Building responsive web interfaces while gaining practical
-            experience with network devices, connectivity, troubleshooting,
-            and basic network infrastructure.
-          </p>
+  Worked on frontend development and networking operations,
+  contributing to responsive web interfaces while gaining
+  practical experience with network devices, connectivity,
+  troubleshooting, and basic network infrastructure.
+</p>
 
           <div className="experience-tech">
             <span>React</span>

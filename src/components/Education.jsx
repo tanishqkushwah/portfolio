@@ -54,12 +54,14 @@ function Education() {
           <p className="education-institute">
             Kurukshetra University
           </p>
+       
 
-          <p>
-            Currently pursuing my engineering degree with a focus on
-            artificial intelligence, data science, programming and
-            modern software development.
-          </p>
+         <p>
+  Currently pursuing my B.Tech in Artificial Intelligence &
+  Data Science, with a strong interest in programming,
+  cybersecurity, Linux, networking, and modern software
+  development.
+</p>
         </div>
 
       </div>

@@ -38,17 +38,18 @@ function About() {
         </h2>
 
         <p>
-          I'm an Artificial Intelligence and Data Science engineering
-          student who enjoys building modern digital experiences,
-          learning new technologies, and turning ideas into practical
-          projects.
-        </p>
+  I’m a B.Tech student specializing in Artificial Intelligence &
+  Data Science, with a strong interest in technology and problem
+  solving. I enjoy exploring how intelligent systems work and
+  turning ideas into practical solutions.
+</p>
 
-        <p>
-          I’m currently developing my skills in frontend development,
-          programming, data science, and artificial intelligence.
-          I enjoy combining technology with clean and meaningful design.
-        </p>
+<p>
+  Alongside AI & Data Science, I’m pursuing my interests in
+  Cybersecurity, Linux, networking, and modern web development.
+  I’m continuously learning, building projects, and developing
+  the skills needed to create useful and reliable technology.
+</p>
 
       </div>
     </section>

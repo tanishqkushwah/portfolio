@@ -42,31 +42,31 @@ function Contact() {
 </h2>
 
         <p className="contact-description">
-          Have a project idea, collaboration opportunity, or just want
-          to say hello? Feel free to get in touch.
-        </p>
+  Have a project, idea, or opportunity in mind? I'd love to connect.
+  Feel free to reach out and let's build something meaningful together.
+</p>
 
         <div className="contact-links">
-          <a href="mailto:your-email@gmail.com">
-            Email Me
-          </a>
+  <a href="mailto:tanishqkushwah9@gmail.com">
+    Email
+  </a>
 
-          <a
-            href="https://github.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
+  <a
+    href="https://github.com/tanishqkushwah"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    GitHub
+  </a>
 
-          <a
-            href="https://www.linkedin.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-        </div>
+  <a
+    href="https://www.linkedin.com/in/tanishq-kushwah-b9120b344"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn
+  </a>
+</div>
 
       </div>
     </section>

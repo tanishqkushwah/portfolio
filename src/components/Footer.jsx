@@ -10,8 +10,9 @@ function Footer() {
         </div>
 
         <p>
-          Building digital experiences with code and creativity.
-        </p>
+  AI & Data Science student exploring technology,
+  cybersecurity, Linux, and modern web development.
+</p>
 
         <div className="footer-links">
           <a href="#about">About</a>

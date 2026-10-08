@@ -64,14 +64,14 @@ function Hero() {
           Tanishq
         </h1>
 
-        <h2>
-          AI & Data Science Engineer
-        </h2>
+        <h2>AI & Data Science Student</h2>
 
-        <p className="hero-description">
-          I build modern digital experiences with technology,
-          creativity and clean design.
-        </p>
+<p className="hero-description">
+  AI & Data Science student with a strong interest in Cybersecurity,
+  Linux, and modern web technologies. Passionate about building
+  practical solutions, exploring emerging technologies, and
+  continuously expanding my technical skills.
+</p>
 
         <button
           onClick={() => {
