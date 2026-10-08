@@ -1,7 +1,7 @@
-import { useEffect, useRef } from "react";
+import { lazy, Suspense, useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import HeroScene from "../three/HeroScene";
+const HeroScene = lazy(() => import("../three/HeroScene"));
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -89,7 +89,9 @@ function Hero() {
 
       {/* RIGHT SIDE — REAL 3D SCENE */}
       <div className="hero-visual">
-        <HeroScene />
+        <Suspense fallback={null}>
+  <HeroScene />
+</Suspense>
       </div>
       <div className="scroll-indicator">
   <span>SCROLL</span>
